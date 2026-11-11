@@ -1,0 +1,6 @@
+Risk ID,Risk,Impact,Mitigation,Approval Required
+R01,Application downtime,High,No availability testing,Yes
+R02,Account lockout,Medium,No repeated login attempts,Yes
+R03,Third-party service impact,High,Exclude third-party assets,Yes
+R04,Session disruption,Medium,Use approved test accounts,Yes
+R05,Sensitive data exposure,High,Do not download unnecessary data,Yes

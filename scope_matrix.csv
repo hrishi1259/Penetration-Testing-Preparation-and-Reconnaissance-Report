@@ -1,0 +1,6 @@
+Asset,Approved Action,Excluded Action,Owner Approval,Notes
+Main Website,Manual browsing,DoS testing,Pending,Confirm scope
+Login Page,View login functionality,Brute force,Pending,Use authorized account
+Search Function,Manual observation,Automated fuzzing,Pending,Confirm limitations
+API Endpoints,Passive observation,Unauthorized API calls,Pending,Confirm API scope
+Admin Panel,Only if explicitly authorized,Privilege escalation,Pending,Restricted access

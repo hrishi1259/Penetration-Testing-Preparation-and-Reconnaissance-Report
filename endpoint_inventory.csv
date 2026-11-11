@@ -1,0 +1,7 @@
+Endpoint,Method,Functionality,Authentication,Status Code,Notes
+/,GET,Homepage,No,200,Public
+/login,GET,Login page,No,200,Authentication entry
+/login,POST,Login submission,No,302,Redact credentials
+/register,GET,Registration page,No,200,Public
+/search,GET,Search functionality,Depends,200,Query parameters
+/dashboard,GET,User dashboard,Yes,200,Authorized account only

@@ -1,0 +1,21 @@
+OWASP ZAP passive analysis (Manual Explore, www.google.com, proxy localhost:8081)
+Alerts: 24 total = 0 high, 8 medium, 7 low, 9 informational
+NOT validated vulnerabilities. Passive leads only.
+
+Hosts contacted:
+  www.google.com, play.google.com, ogads-pa.clients6.google.com,
+  csp.withgoogle.com, www.gstatic.com, fonts.gstatic.com
+
+Alert groups:
+  - CSP: Failure to define directive with no fallback
+  - CSP: Wildcard directive; script-src unsafe-eval; script-src unsafe-inline; style-src unsafe-inline
+  - Content Security Policy (CSP) header not set
+  - Cross-Domain Misconfiguration (Medium) - rule 10098, CWE-264, WASC-14
+  - Sub Resource Integrity attribute missing
+  - CSP: Notices
+  - Cookie without HttpOnly flag
+  - Cookie with SameSite attribute set to None
+
+Example: Cross-Domain Misconfiguration on a font file from fonts.gstatic.com
+(Access-Control-Allow-Origin: *). Expected for a public font; informational in context.
+Do not use Attack or Active Scan.

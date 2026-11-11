@@ -1,0 +1,16 @@
+URL VALIDATION (practice site - NOT an assigned application)
+Date: 2026-11-09
+
+Commands:
+  TARGET="https://google.com"
+  curl -sS -D - -o /dev/null "$TARGET"
+  curl -sS -L --max-redirs 5 -D - -o /dev/null "$TARGET"
+
+Result:
+  1st request : HTTP/2 301, location: https://www.google.com/
+  Final       : HTTP/2 200, content-type text/html; charset=ISO-8859-1, cache-control private
+  Headers     : server gws, x-frame-options SAMEORIGIN, x-xss-protection 0, CSP report-only
+  Cookies     : AEC, NID, __Secure-STRP (values intentionally NOT recorded)
+
+Process note: redirect was followed on a public practice site. On a real
+engagement, confirm the destination host with the coordinator first.

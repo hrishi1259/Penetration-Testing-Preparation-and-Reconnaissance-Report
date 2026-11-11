@@ -1,0 +1,9 @@
+Assigned URL:               PLACEHOLDER (example.com) - to be replaced
+Approved domain:            Pending confirmation
+Testing environment:        Not yet confirmed (staging / approved production)
+Testing account:            Not yet issued
+Testing period:             Not yet confirmed
+Allowed activities:         Manual browsing and passive analysis (proposed)
+Excluded activities:        DoS, brute force, exploitation, fuzzing (proposed)
+Emergency contact:          To be recorded (project coordinator)
+Rules of engagement approval: PENDING

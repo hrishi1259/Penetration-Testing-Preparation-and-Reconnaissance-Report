@@ -1,0 +1,17 @@
+# Burp / ZAP project and session data
+*.burp
+*.session
+*.session.data
+*.har
+# Secrets and credentials
+.env
+*.key
+*.pem
+*apikey*
+# Raw unredacted captures
+04_Burp_Evidence/raw/
+07_Logs/*.raw
+# OS / editor
+.DS_Store
+*.swp
+*~

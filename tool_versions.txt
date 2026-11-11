@@ -1,0 +1,12 @@
+OS               Kali GNU/Linux Rolling, VERSION_ID 2026.3
+Virtualization   Oracle VirtualBox (VM: kali 123)
+Firefox          153.4.0esr
+curl             8.22.0 (x86_64-pc-linux-gnu), OpenSSL 3.6.5
+WhatWeb          0.6.4
+Python           3.14.8
+Burp Suite       Community 2026.10.1 (2026.10.1-0kali1)
+OWASP ZAP        2.17.0 (2.17.0-0kali1), Java 21
+Wappalyzer       Firefox extension
+Burp listener    127.0.0.1:8080
+ZAP proxy        localhost:8081
+Burp CA          PortSwigger CA, valid 8 Nov 2014 - 8 Nov 2036

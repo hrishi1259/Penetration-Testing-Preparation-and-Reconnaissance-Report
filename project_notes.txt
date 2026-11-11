@@ -1,0 +1,9 @@
+Project Name: Penetration Testing Preparation and Reconnaissance
+Assigned Application: PENDING
+Assigned URL: PENDING
+Operating System: Kali GNU/Linux Rolling 2026.3 (VirtualBox VM "kali 123")
+Browser: Firefox ESR 153.4.0
+Burp Suite Version: Community 2026.10.1
+OWASP ZAP Version: 2.17.0
+Project Start Date: 2026-11-09
+Testing Authorization and Rules of Engagement: PENDING written approval

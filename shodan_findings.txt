@@ -1,0 +1,11 @@
+Passive Shodan review (no scanning of any target).
+Query: 192.168.1.2 -> 11,652 results.
+Interpretation: 192.168.1.2 is a private RFC 1918 address. Results are unrelated
+public hosts mentioning that string in banners. NOT findings. Do not investigate
+unrelated third-party systems.
+
+Optional workflow for an APPROVED domain:
+  pipx install shodan
+  shodan init YOUR_API_KEY     # never commit your key
+  shodan domain example.com
+Shodan-discovered subdomains must not be assumed in scope.

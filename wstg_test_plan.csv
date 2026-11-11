@@ -1,0 +1,8 @@
+WSTG Category,Assessment Objective,Target,Method,Status
+Information Gathering,Identify application technologies,Approved website,Passive,Planned
+Configuration Management,Observe security headers,Approved website,Passive,Planned
+Authentication,Document login functionality,Login page,Manual observation,Planned
+Authorization,Identify role-based functions,Approved account,Manual observation,Planned
+Session Management,Document cookie attributes,Approved website,Passive,Planned
+Input Validation,Identify input fields,Forms,Inventory only,Planned
+Error Handling,Document visible errors,Approved website,Observation only,Planned

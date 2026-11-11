@@ -1,0 +1,5 @@
+Asset ID,Asset Name,URL,Type,Owner,Scope Status
+A01,Main Website,https://example.com,Web Application,Web Team,Pending
+A02,Login Page,https://example.com/login,Web Page,Web Team,Pending
+A03,Search Function,https://example.com/search,Functionality,Web Team,Pending
+A04,API,https://api.example.com,API,API Team,Pending

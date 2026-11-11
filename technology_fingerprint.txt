@@ -1,0 +1,11 @@
+Target: https://google.com (practice site, not assigned)
+Web Server: gws
+Programming Language: Not identified
+CMS: Not identified
+Frontend Framework: Not identified
+JavaScript Libraries: Not identified
+HTTPS: Yes (HTTP/2; alt-svc advertises HTTP/3)
+Security Headers: X-Frame-Options SAMEORIGIN; X-XSS-Protection 0; CSP report-only; HSTS not observed in this response; X-Powered-By not observed
+Wappalyzer Findings (wappalyzer.com demo): Google Analytics (GA4), Next.js, Vue.js, Stripe, Google Tag Manager, Crisp Live Chat, UptimeRobot, Nuxt.js, core-js
+WhatWeb Findings (--aggression 1): 301 -> https://www.google.com/ ; 200 OK, cookies AEC/NID/__Secure-STRP, HttpOnly AEC/NID, HTML5, gws
+Other Observations: Absence of a header is an observation, not proof of a vulnerability.

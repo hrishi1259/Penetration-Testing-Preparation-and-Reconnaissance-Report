@@ -1,0 +1,7 @@
+Page,URL,Functionality
+Home,/,Main landing page
+Login,/login,User authentication
+Register,/register,Account registration
+Search,/search,Search functionality
+Contact,/contact,Contact form
+Dashboard,/dashboard,"User dashboard, if authorized"
